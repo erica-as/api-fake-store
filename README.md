@@ -12,4 +12,4 @@ Este projeto prático foi desenvolvido como parte da disciplina de Desenvolvimen
 ## Como Executar o Projeto
 
 1. Clone o Repositório: git clone https://github.com/erica-as/api-fake-store.git
-2. Abra o Arquivo HTML: Abra o arquivo index.html no seu navegador ou acesse o link da aplicação 
+2. Abra o Arquivo HTML: Abra o arquivo index.html no seu navegador ou acesse o link da aplicação _https://erica-as.github.io/api-fake-store/_
