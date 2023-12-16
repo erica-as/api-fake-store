@@ -34,11 +34,11 @@
 }
 
 main .container li button {
-  color: #90a0b7; /* Defina a cor desejada para o texto das abas */
+  color: #90a0b7;
 }
 
 main .container li button:hover {
-  color: #90a0b7; /* Defina a cor desejada para o texto das abas */
+  color: #90a0b7;
 }
 
 main .container .nav-underline {
