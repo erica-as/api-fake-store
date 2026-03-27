@@ -1,3 +1,9 @@
+# Api Fake Store 🛍️
+
+> Aplicação web responsiva que consome a [Fake Store API](https://fakestoreapi.com/) para exibir produtos de um e-commerce fictício, permitindo navegar por categorias, pesquisar itens e visualizar detalhes de cada produto.
+
+---
+
 # Projeto de Desenvolvimento de Interfaces Web
 
 Este projeto prático foi desenvolvido como parte da disciplina de Desenvolvimento de Interfaces Web. O objetivo principal é criar uma aplicação web responsiva que consome dados da API Fake Store, exibindo e manipulando esses dados na interface.
