@@ -1,0 +1,35 @@
+name: Atualizar Metadados do Repositório
+
+on:
+  workflow_dispatch:
+
+permissions:
+  administration: write
+
+jobs:
+  update-metadata:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Atualizar descrição do repositório
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api \
+            --method PATCH \
+            /repos/${{ github.repository }} \
+            -f description="Aplicação web responsiva de e-commerce que consome a Fake Store API, com navegação por categorias, pesquisa de produtos e visualização de detalhes."
+
+      - name: Associar tecnologias (tópicos) ao repositório
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api \
+            --method PUT \
+            /repos/${{ github.repository }}/topics \
+            -f "names[]=html" \
+            -f "names[]=css" \
+            -f "names[]=javascript" \
+            -f "names[]=bootstrap" \
+            -f "names[]=fake-store-api" \
+            -f "names[]=ecommerce" \
+            -f "names[]=responsive-design"
